@@ -11,8 +11,11 @@
     "name": "ODJ-Raptor",
     "architecture": "avr",
     "version": "0.1.0",
-    "category": "Contributed"
-    }
+    "category": "Contributed",
+    "boards":[
+      {"name": "ODJ-Raptor"}
+    ]
+  }
   ],
   "tools": []
   }
