@@ -1,0 +1,11 @@
+{
+"packages":[
+  "name": "ODJ-Raptor",
+  "maintainer": "ODJ",
+  "websiteURL": "https://github.com/odjmicros123/ODJ-Raptor.git",
+  "email": "oscargv1797@hotmail.com",
+
+  "platforms": [],
+  "tools": []
+ ]
+}
