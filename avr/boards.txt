@@ -1,0 +1,27 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+
+##############################################################
+
+odjraptor.name=Arduino/ODJ-Raptor
+
+odjraptor.upload.tool=avrdude
+odjraptor.upload.protocol=arduino
+odjraptor.upload.maximum_size=32256
+odjraptor.upload.maximum_data_size=2048
+odjraptor.upload.speed=115200
+
+odjraptor.bootloader.tool=avrdude
+odjraptor.bootloader.low_fuses=0xFF
+odjraptor.bootloader.high_fuses=0xDE
+odjraptor.bootloader.extended_fuses=0x05
+odjraptor.bootloader.unlock_bits=0x3F
+odjraptor.bootloader.lock_bits=0x0F
+odjraptor.bootloader.file=optiboot/optiboot_atmega328.hex
+
+odjraptor.build.mcu=atmega328p
+odjraptor.build.f_cpu=16000000L
+odjraptor.build.board=AVR_UNO
+odjraptor.build.core=arduino
+odjraptor.build.variant=standard
