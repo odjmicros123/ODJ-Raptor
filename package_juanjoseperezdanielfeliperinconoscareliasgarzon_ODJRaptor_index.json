@@ -12,6 +12,10 @@
     "architecture": "avr",
     "version": "0.1.0",
     "category": "Contributed",
+    "url": "https://github.com/odjmicros123/ODJ-Raptor/archive/v0.1.0.zip",
+    "archiveFileName": "ODJ-Raptor-0.1.0.zip",
+    "checksum": "SHA-256:e33d45aad3b1115187e4df88c1ea38504e1a40d40af506d255ff04dbfe2b2c71",
+    "size": "193590",  
     "boards":[
       {"name": "ODJ-Raptor"}
     ]
